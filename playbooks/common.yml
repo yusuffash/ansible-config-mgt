@@ -1,6 +1,6 @@
 ---
-- name: update web, nfs and servers
-  hosts: webservers, nfs
+- name: update web and servers
+  hosts: webservers
   remote_user: ec2-user
   become: yes
   become_user: root
